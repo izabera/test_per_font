@@ -1,16 +1,23 @@
-\documentclass[12pt]{article}
+\documentclass[12pt,a4paper]{article}
 
 \usepackage{nopageno}
 \usepackage{fontspec}
 \usepackage{microtype}
 \usepackage{polyglossia}
 \setmainlanguage{italian}
-\usepackage[paperwidth=21cm,paperheight=18cm]{geometry}
+\usepackage{geometry}
+\usepackage{scalefnt}
 
 \usepackage{yfonts}%per fraktur
 \usepackage{xcolor}
 \usepackage{xifthen}
 \definecolor{bittersweet}{rgb}{1.0, 0.44, 0.37}
+\definecolor{firstblue}{RGB}{51, 148, 193}
+\definecolor{kindared}{RGB}{241, 89, 48}
+\definecolor{secondblue}{RGB}{91, 196, 191}
+\definecolor{yellowish}{RGB}{255, 194, 33}
+\definecolor{purplous}{RGB}{152, 124, 173}
+\definecolor{greenthing}{RGB}{100, 168, 117}
 
 \newcommand{\mydummy}{``Quaranta morti!''---esclamò Xao Jin. ``Un massacro epocale, è stata una Waterloo.''
 
@@ -24,10 +31,23 @@ Avrebbero vinto? Certo nessuno poteva saperlo. Non erano i quaranta morti il pro
 
 Pensò alla sua Hyoko, vittima innocente della mano violenta dei Matowaji. Rimase lì per un po', mentre i ricordi affluivano. Già da anni non pensava più ad Oxford, all'incendio di Birmingham, alle sparatorie di Edimburgo del 1973--74... Forse ormai era troppo vecchio.}
 
-\newcommand{\testfont}[3][]{\vspace*{\fill}%
+\newcounter{colorcounter}
+
+\newcommand{\mycolor}{\stepcounter{colorcounter}%
+\ifthenelse{\equal{\value{colorcounter}}{1}}{\color{firstblue}}{}%
+\ifthenelse{\equal{\value{colorcounter}}{2}}{\color{kindared}}{}%
+\ifthenelse{\equal{\value{colorcounter}}{3}}{\color{secondblue}}{}%
+\ifthenelse{\equal{\value{colorcounter}}{4}}{\color{yellowish}}{}%
+\ifthenelse{\equal{\value{colorcounter}}{5}}{\color{purplous}}{}%
+\ifthenelse{\equal{\value{colorcounter}}{6}}{\color{greenthing}}{}%
+}
+
+\newcommand{\resetcolor}{\ifthenelse{\equal{\value{colorcounter}}{6}}{\setcounter{colorcounter}{0}}{}}
+\newcommand{\testfont}[4][]{\vspace*{\fill}%
 {#2%
-\centerline{\textbf{\huge #3}}\bigbreak%
-\mydummy%
+\centerline{\textbf{\huge #3}}\par\vspace*{2cm}%
+\centerline{\scalefont{8}\mycolor{}#4\resetcolor{}}\par\vspace*{2cm}%
+\addfontfeatures{Ligatures=TeX}\mydummy%
 \ifthenelse{\equal{#1}{}}{}{\\\color{bittersweet}\centerline{#1}}%
 }%
 \vspace*{\fill}\newpage}
@@ -37,126 +57,127 @@ Pensò alla sua Hyoko, vittima innocente della mano violenta dei Matowaji. Rimas
 \textsf{\textbf{\Huge#1}}%
 \hspace*{\fill}\vspace*{\fill}\newpage}
 
-\newfontfamily\baskervald[Ligatures=TeX]{Baskervald ADF Std}
-\newfontfamily\bembo[Ligatures=TeX]{Bembo Std}
-\newfontfamily\scala[Ligatures=TeX]{Scala}
-\newfontfamily\clifford[Ligatures=TeX]{CliffordNine LF}
-\newfontfamily\caslon[Ligatures=TeX]{Adobe Caslon Pro}
-\newfontfamily\celeste[Ligatures=TeX]{CelesteST-Regular}
-\newfontfamily\garamond[Ligatures=TeX]{Adobe Garamond Pro}
-\newfontfamily\jenson[Ligatures=TeX]{Adobe Jenson Pro}
-\newfontfamily\libertine[Ligatures=TeX]{Linux Libertine O}
-\newfontfamily\minion[Ligatures=TeX]{Minion Pro}
-\newfontfamily\palatino[Ligatures=TeX]{Palatino LT Std}
-\newfontfamily\raleigh[Ligatures=TeX]{Raleigh LT Std}
-\newfontfamily\sabon[Ligatures=TeX]{Sabon LT Std}
-\newfontfamily\troman[Ligatures=TeX]{Times New Roman}
-\newfontfamily\bodoni[Ligatures=TeX]{Bauer Bodoni Std 1}
-\newfontfamily\century[Ligatures=TeX]{New Century Schoolbook LT Std}
-\newfontfamily\melior[Ligatures=TeX]{Melior LT Std}
-\newfontfamily\grotesque[Ligatures=TeX]{Grotesque MT Std}
-\newfontfamily\univers[Ligatures=TeX]{Univers LT 55}
-\newfontfamily\helvetica[Ligatures=TeX]{Helvetica Neue}
-\newfontfamily\arial[Ligatures=TeX]{Arial}
-\newfontfamily\bau[Ligatures=TeX]{BauLF-Regular}
-\newfontfamily\avantgarde[Ligatures=TeX]{ITC Avant Garde Gothic Std Book}
-\newfontfamily\din[Ligatures=TeX]{DINPro}
-\newfontfamily\futura[Ligatures=TeX]{Futura LT Book}
-\newfontfamily\gill[Ligatures=TeX]{Gill Sans MT}
-\newfontfamily\frutiger[Ligatures=TeX]{Frutiger LT 55 Roman}
-\newfontfamily\myriad[Ligatures=TeX]{Myriad Pro}
-\newfontfamily\verdana[Ligatures=TeX]{Verdana}
-\newfontfamily\optima[Ligatures=TeX]{Optima LT}
-\newfontfamily\dax[Ligatures=TeX]{Dax Light}
-\newfontfamily\meta[Ligatures=TeX]{MetaPro}
-\newfontfamily\balance[Ligatures=TeX]{Balance-Regular}
-\newfontfamily\rockwell[Ligatures=TeX]{Rockwell}
-\newfontfamily\caecilia[Ligatures=TeX]{Caecilia LT Std}\newfontfamily\bickham[Ligatures=TeX, Scale=1.4]{Bickham Script Pro}
-\newfontfamily\zapfino[Ligatures=TeX, Scale=1.3]{LTZapfino One}
-\newfontfamily\pagella[Ligatures=TeX]{TeX Gyre Pagella}
-\newfontfamily\termes[Ligatures=TeX]{TeX Gyre Termes}
-\newfontfamily\cursor[Ligatures=TeX, Scale=0.9]{TeX Gyre Cursor}
-\newfontfamily\heros[Ligatures=TeX]{TeX Gyre Heros}
-\newfontfamily\chorus[Ligatures=TeX]{TeX Gyre Chorus}
-\newfontfamily\schola[Ligatures=TeX]{TeX Gyre Schola}
-\newfontfamily\bonum[Ligatures=TeX]{TeX Gyre Bonum}
-\newfontfamily\adventor[Ligatures=TeX]{TeX Gyre Adventor}
-\newfontfamily\crimson[Ligatures=TeX]{Crimson Text}
-\newfontfamily\ebgaramond[Ligatures=TeX]{EB Garamond}
+\newfontfamily\baskervald{Baskervald ADF Std}
+\newfontfamily\bembo{Bembo Std}
+\newfontfamily\scala{Scala}
+\newfontfamily\clifford{CliffordNine LF}
+\newfontfamily\caslon{Adobe Caslon Pro}
+\newfontfamily\celeste{CelesteST-Regular}
+\newfontfamily\garamond{Adobe Garamond Pro}
+\newfontfamily\jenson{Adobe Jenson Pro}
+\newfontfamily\libertine{Linux Libertine O}
+\newfontfamily\minion{Minion Pro}
+\newfontfamily\palatino{Palatino LT Std}
+\newfontfamily\raleigh{Raleigh LT Std}
+\newfontfamily\sabon{Sabon LT Std}
+\newfontfamily\troman{Times New Roman}
+\newfontfamily\bodoni{Bauer Bodoni Std 1}
+\newfontfamily\century{New Century Schoolbook LT Std}
+\newfontfamily\melior{Melior LT Std}
+\newfontfamily\grotesque{Grotesque MT Std}
+\newfontfamily\univers{Univers LT 55}
+\newfontfamily\helvetica{Helvetica Neue}
+\newfontfamily\arial{Arial}
+\newfontfamily\bau{BauLF-Regular}
+\newfontfamily\avantgarde{ITC Avant Garde Gothic Std Book}
+\newfontfamily\din{DINPro}
+\newfontfamily\futura{Futura LT Book}
+\newfontfamily\gill{Gill Sans MT}
+\newfontfamily\frutiger{Frutiger LT 55 Roman}
+\newfontfamily\myriad{Myriad Pro}
+\newfontfamily\verdana{Verdana}
+\newfontfamily\optima{Optima LT}
+\newfontfamily\dax{Dax Light}
+\newfontfamily\meta{MetaPro}
+\newfontfamily\balance{Balance-Regular}
+\newfontfamily\rockwell{Rockwell}
+\newfontfamily\caecilia{Caecilia LT Std}
+\newfontfamily\bickham[Scale=1.4]{Bickham Script Pro}
+\newfontfamily\zapfino[Scale=1.3]{LTZapfino One}
+\newfontfamily\pagella{TeX Gyre Pagella}
+\newfontfamily\termes{TeX Gyre Termes}
+\newfontfamily\cursor[Scale=0.9]{TeX Gyre Cursor}
+\newfontfamily\heros{TeX Gyre Heros}
+\newfontfamily\chorus{TeX Gyre Chorus}
+\newfontfamily\schola{TeX Gyre Schola}
+\newfontfamily\bonum{TeX Gyre Bonum}
+\newfontfamily\adventor{TeX Gyre Adventor}
+\newfontfamily\crimson{Crimson Text}
+\newfontfamily\ebgaramond{EB Garamond}
 
 \begin{document}
 \parte{Veneziani o umanisti}
-\testfont{\jenson}{Adobe Jenson}
-\testfont[Versione open source di Minion ma con alcune differenze]{\crimson}{Crimson}
-\testfont{\minion}{Minion}
-\testfont[Versione open source di Palatino]{\pagella}{TeX Gyre Pagella}
-%\testfont{\palatino}{Palatino LT Std}
+\testfont{\jenson}{Adobe Jenson}{RingrAziare}
+\testfont{\minion}{Minion}{Dimentichi}
+\testfont{\crimson}{Crimson}{Imbottiva}
+\testfont[Versione open source di Palatino]{\pagella}{TeX Gyre Pagella}{LongoBardi}
+%\testfont{\palatino}{Palatino LT Std}{Ciao}
 
 \parte{Romani antichi}
-\testfont{\bembo}{Bembo}
-\testfont[Da risolvere: non mostra le legature]{\clifford}{FF Clifford}
-\testfont{\scala}{FF Scala}
-\testfont[Versione open source di Adobe Garamond]{\garamond}{EB Garamond}
-%\testfont[Carino!]{\garamond}{Adobe Garamond}
-\testfont{\libertine}{Linux Libertine O}
+\testfont{\bembo}{Bembo}{Xenofobia}
+\testfont[Da risolvere: non mostra le legature]{\clifford}{FF Clifford}{VestiTo}
+\testfont{\scala}{FF Scala}{YogurteEia}
+\testfont[Versione open source di Adobe Garamond]{\garamond}{EB Garamond}{Maniche}
+%\testfont[Carino!]{\garamond}{Adobe Garamond}{Ciao}
+\testfont{\libertine}{Linux Libertine}{QuaGlie}
 
 \parte{Transizionali}
-\testfont[Raccomandato!]{\caslon}{Adobe Caslon}
-\testfont{\baskervald}{Baskervald ADF}
-\testfont[Versione open source di Times New Roman ma con legature]{\termes}{TeX Gyre Termes}
-%\testfont{\troman}{Times New Roman}
-\testfont[Figo!]{\sabon}{Sabon LT}
-\testfont{\celeste}{CelesteST}
-\testfont[Versione open source di ITC Bookman]{\bonum}{TeX Gyre Bonum}
+\testfont[Raccomandato!]{\caslon}{Adobe Caslon}{ColtivaZione}
+\testfont{\baskervald}{Baskervald ADF}{Atrofizza}
+\testfont[Versione open source di Times New Roman ma con legature]{\termes}{TeX Gyre Termes}{Vegliare}
+%\testfont{\troman}{Times New Roman}{Ciao}
+\testfont[Figo!]{\sabon}{Sabon LT}{Bustine}
+\testfont{\celeste}{CelesteST}{ScodeLla}
+\testfont[Versione open source di ITC Bookman]{\bonum}{TeX Gyre Bonum}{Jugoslavi}
 
 \parte{Romani moderni}
-\testfont{\bodoni}{Bauer Bodoni}
-\testfont[Versione open source di New Century Schoolbook]{\schola}{TeX Gyre Schola}
-%\testfont{\century}{New Century Schoolbook}
-\testfont{\rmfamily}{Computer Modern}
-\testfont{\melior}{Melior}
-\testfont{\raleigh}{Raleigh LT}
+\testfont{\bodoni}{Bauer Bodoni}{RegolatiVo}
+\testfont[Versione open source di New Century Schoolbook]{\schola}{TeX Gyre Schola}{ZigrinAto}
+%\testfont{\century}{New Century Schoolbook}{Ciao}
+\testfont{\rmfamily}{Computer Modern}{PediCure}
+\testfont{\melior}{Melior}{Castori}
+\testfont{\raleigh}{Raleigh LT}{VessilLo}
 
 \parte{Grotteschi}
-\testfont{\grotesque}{Grotesque}
-\testfont[Da risolvere: non mostra virgolette]{\bau}{FF Bau}
+\testfont{\grotesque}{Grotesque}{NapolEone}
+\testfont[Da risolvere: non mostra virgolette]{\bau}{FF Bau}{XilofOno}
 
 \parte{Neo-grotteschi}
-\testfont{\univers}{Univers}
-\testfont[Versione open source di Helvetica]{\heros}{TeX Gyre Heros}
-%\testfont{\helvetica}{Neue Helvetica}
-\testfont{\arial}{Arial}
+\testfont{\univers}{Univers}{TemPorali}
+\testfont[Versione open source di Helvetica]{\heros}{TeX Gyre Heros}{RiGato}
+%\testfont{\helvetica}{Neue Helvetica}{Ciao}
+\testfont{\arial}{Arial}{GiRato}
 
 \parte{Gotici senza grazie}
-\testfont{\sf}{Latin Modern Sans}
+\testfont{\sf}{Latin Modern Sans}{Pubertà}
 
 \parte{Geometrici}
-\testfont[Versione open source di ITC Avant Garde Gothic]{\adventor}{TeX Gyre Adventor}
-%\testfont{\avantgarde}{ITC Avant Garde Gothic}
-\testfont{\din}{FF Din}
-\testfont{\futura}{Futura LT}
+\testfont[Versione open source di ITC Avant Garde Gothic]{\adventor}{TeX Gyre Adventor}{Regionali}
+%\testfont{\avantgarde}{ITC Avant Garde Gothic}{Ciao}
+\testfont{\din}{FF Din}{Galeoni}
+\testfont{\futura}{Futura LT}{HambuRger}
 
 \parte{Umanisti senza grazie}
-\testfont{\gill}{Gill Sans}
-\testfont[Molto chiaro e leggibile]{\frutiger}{Frutiger}
-\testfont{\myriad}{Myriad}
-\testfont{\optima}{Optima}
-\testfont{\verdana}{Verdana}
+\testfont{\gill}{Gill Sans}{Wimbledon}
+\testfont[Molto chiaro e leggibile]{\frutiger}{Frutiger}{Mitiga}
+\testfont{\myriad}{Myriad}{ForestiEra}
+\testfont{\optima}{Optima}{Sequestrai}
+\testfont{\verdana}{Verdana}{Ossidriche}
 
 \parte{Neo-umanisti senza grazie}
-\testfont{\dax}{FF Dax}
-\testfont{\meta}{FF Meta}
-\testfont{\balance}{FF Balance}
+\testfont{\dax}{FF Dax}{RaCcoglie}
+\testfont{\meta}{FF Meta}{Velocista}
+\testfont{\balance}{FF Balance}{Ubriacone}
 
 \parte{Egiziani}
-\testfont{\rockwell}{Rockwell}
-\testfont{\caecilia}{PMN Caecilia}
-\testfont[Versione open source di Courier]{\cursor}{TeX Gyre Cursor}
+\testfont{\rockwell}{Rockwell}{Far West}
+\testfont{\caecilia}{PMN Caecilia}{Estrazione}
+\testfont[Versione open source di Courier]{\cursor}{TeX Gyre Cursor}{Computer}
 
 \parte{Scritture}
-\testfont{\bickham}{Bickham Script}
-\testfont{\zapfino}{Zapfino LinoType}
-\testfont[Versione open source di Zaph Chancery]{\chorus}{TeX Gyre Chorus}
-\testfont{\frakfamily}{Fraktur}
+\testfont{\bickham}{Bickham Script}{AltiSsima}
+\testfont[Da risolvere: non prende le alternative]{\zapfino}{Zapfino LinoType}{Killer}
+\testfont[Versione open source di Zaph Chancery]{\chorus}{TeX Gyre Chorus}{Giostre}
+\testfont[Da risolvere: non ingrandisce il carattere nel titolo]{\frakfamily}{Fraktur}{Ricettario}
 
 \end{document}
