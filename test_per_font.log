@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/W32TeX) (format=xelatex 2014.6.9)  29 JUN 2014 08:54
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/W32TeX) (format=xelatex 2014.6.9)  29 JUN 2014 11:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -451,30 +451,6 @@ Package polyglossia Info: Making " an active character on input line 24.
 )
 Package polyglossia Info: Default language is italian.
 
-(c:/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
-(c:/texlive/2013/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(c:/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count127
-\Gm@cntv=\count128
-\c@Gm@tempcnt=\count129
-\Gm@bindingoffset=\dimen140
-\Gm@wd@mp=\dimen141
-\Gm@odd@mp=\dimen142
-\Gm@even@mp=\dimen143
-\Gm@layoutwidth=\dimen144
-\Gm@layoutheight=\dimen145
-\Gm@layouthoffset=\dimen146
-\Gm@layoutvoffset=\dimen147
-\Gm@dimlist=\toks20
-)
-(c:/texlive/2013/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 (c:/texlive/2013/texmf-dist/tex/latex/yfonts/yfonts.sty
 Package: yfonts 2003/01/08 v1.3 (WaS)
 )
@@ -499,15 +475,15 @@ Package: xifthen 2009/04/17 v1.3 Extended ifthen features
 
 (c:/texlive/2013/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count130
-\calc@Bcount=\count131
-\calc@Adimen=\dimen148
-\calc@Bdimen=\dimen149
+\calc@Acount=\count127
+\calc@Bcount=\count128
+\calc@Adimen=\dimen140
+\calc@Bdimen=\dimen141
 \calc@Askip=\skip49
 \calc@Bskip=\skip50
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count132
+\calc@Ccount=\count129
 \calc@Cskip=\skip51
 )
 (c:/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
@@ -516,9 +492,9 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 (c:/texlive/2013/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 ))
-\c@colorcounter=\count133
+\c@colorcounter=\count130
 \g__file_internal_ior=\read1
-\g_fontspec_family_Baskervald ADF Std_int=\count134
+\g_fontspec_family_Baskervald ADF Std_int=\count131
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -539,7 +515,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"Baskervald ADF Std/BI/ICU:script=latn;language=DFLT;"
 .................................................
-\g_fontspec_family_Bembo Std_int=\count135
+\g_fontspec_family_Bembo Std_int=\count132
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -567,7 +543,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . 
 . Font Scala does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Scala_int=\count136
+\g_fontspec_family_Scala_int=\count133
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -592,7 +568,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . 
 . Font CliffordNine LF does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_CliffordNine LF_int=\count137
+\g_fontspec_family_CliffordNine LF_int=\count134
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -615,7 +591,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"CliffordNine LF/BI/ICU:"
 .................................................
-\g_fontspec_family_Adobe Caslon Pro_int=\count138
+\g_fontspec_family_Adobe Caslon Pro_int=\count135
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -647,7 +623,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . 
 . Font CelesteST-Regular does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_CelesteST-Regular_int=\count139
+\g_fontspec_family_CelesteST-Regular_int=\count136
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -668,7 +644,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"CelesteST-Regular/BI/ICU:"
 .................................................
-\g_fontspec_family_Adobe Garamond Pro_int=\count140
+\g_fontspec_family_Adobe Garamond Pro_int=\count137
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -695,7 +671,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"Adobe Garamond Pro/BI/ICU:script=latn;language=DFLT;"
 .................................................
-\g_fontspec_family_Adobe Jenson Pro_int=\count141
+\g_fontspec_family_Adobe Jenson Pro_int=\count138
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -728,7 +704,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic small caps' with NFSS spec.:
 . <->"Adobe Jenson Pro/BI/ICU:script=latn;language=DFLT;+smcp;"
 .................................................
-\g_fontspec_family_Linux Libertine O_int=\count142
+\g_fontspec_family_Linux Libertine O_int=\count139
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -761,7 +737,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic small caps' with NFSS spec.:
 . <->"Linux Libertine O/BI/ICU:script=latn;language=DFLT;+smcp;"
 .................................................
-\g_fontspec_family_Minion Pro_int=\count143
+\g_fontspec_family_Minion Pro_int=\count140
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -793,7 +769,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic small caps' with NFSS spec.:
 . <->"Minion Pro/BI/ICU:script=latn;language=DFLT;+smcp;"
 .................................................
-\g_fontspec_family_Palatino LT Std_int=\count144
+\g_fontspec_family_Palatino LT Std_int=\count141
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -817,7 +793,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"Palatino LT Std/BI/ICU:script=latn;language=DFLT;"
 .................................................
-\g_fontspec_family_Raleigh LT Std_int=\count145
+\g_fontspec_family_Raleigh LT Std_int=\count142
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -840,7 +816,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"Raleigh LT Std/BI/ICU:script=latn;language=DFLT;"
 .................................................
-\g_fontspec_family_Sabon LT Std_int=\count146
+\g_fontspec_family_Sabon LT Std_int=\count143
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -863,7 +839,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"Sabon LT Std/BI/ICU:script=latn;language=DFLT;"
 .................................................
-\g_fontspec_family_Times New Roman_int=\count147
+\g_fontspec_family_Times New Roman_int=\count144
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -890,7 +866,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic small caps' with NFSS spec.:
 . <->"Times New Roman/BI/ICU:script=latn;language=DFLT;+smcp;"
 .................................................
-\g_fontspec_family_Bauer Bodoni Std 1_int=\count148
+\g_fontspec_family_Bauer Bodoni Std 1_int=\count145
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -914,7 +890,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"Bauer Bodoni Std 1/BI/ICU:script=latn;language=DFLT;"
 .................................................
-\g_fontspec_family_New Century Schoolbook LT Std_int=\count149
+\g_fontspec_family_New Century Schoolbook LT Std_int=\count146
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -935,7 +911,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"New Century Schoolbook LT Std/BI/ICU:script=latn;language=DFLT;"
 .................................................
-\g_fontspec_family_Melior LT Std_int=\count150
+\g_fontspec_family_Melior LT Std_int=\count147
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -956,7 +932,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"Melior LT Std/BI/ICU:script=latn;language=DFLT;"
 .................................................
-\g_fontspec_family_Grotesque MT Std_int=\count151
+\g_fontspec_family_Grotesque MT Std_int=\count148
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -982,7 +958,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . 
 . Font Univers LT 55 does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Univers LT 55_int=\count152
+\g_fontspec_family_Univers LT 55_int=\count149
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1003,7 +979,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"Univers LT 55/BI/ICU:"
 .................................................
-\g_fontspec_family_Helvetica Neue_int=\count153
+\g_fontspec_family_Helvetica Neue_int=\count150
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1024,7 +1000,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"Helvetica Neue/BI/ICU:script=latn;language=DFLT;"
 .................................................
-\g_fontspec_family_Arial_int=\count154
+\g_fontspec_family_Arial_int=\count151
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1058,7 +1034,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . 
 . Font BauLF-Regular does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_BauLF-Regular_int=\count155
+\g_fontspec_family_BauLF-Regular_int=\count152
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1085,7 +1061,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'normal' with NFSS spec.:
 . <->"BauLF-Regular/ICU:"
 .................................................
-\g_fontspec_family_ITC Avant Garde Gothic Std Book_int=\count156
+\g_fontspec_family_ITC Avant Garde Gothic Std Book_int=\count153
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1106,7 +1082,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"ITC Avant Garde Gothic Std Book/BI/ICU:script=latn;language=DFLT;"
 .................................................
-\g_fontspec_family_DINPro_int=\count157
+\g_fontspec_family_DINPro_int=\count154
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1133,7 +1109,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . 
 . Font Futura LT Book does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Futura LT Book_int=\count158
+\g_fontspec_family_Futura LT Book_int=\count155
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1159,7 +1135,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . 
 . Font Gill Sans MT does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Gill Sans MT_int=\count159
+\g_fontspec_family_Gill Sans MT_int=\count156
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1185,7 +1161,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . Font Frutiger LT 55 Roman does not contain any OpenType `Script'
 . information.
 .................................................
-\g_fontspec_family_Frutiger LT 55 Roman_int=\count160
+\g_fontspec_family_Frutiger LT 55 Roman_int=\count157
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1206,7 +1182,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"Frutiger LT 55 Roman/BI/ICU:"
 .................................................
-\g_fontspec_family_Myriad Pro_int=\count161
+\g_fontspec_family_Myriad Pro_int=\count158
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1226,7 +1202,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"Myriad Pro/BI/ICU:script=latn;language=DFLT;"
 .................................................
-\g_fontspec_family_Verdana_int=\count162
+\g_fontspec_family_Verdana_int=\count159
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1263,7 +1239,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . 
 . Font Optima LT does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Optima LT_int=\count163
+\g_fontspec_family_Optima LT_int=\count160
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1288,7 +1264,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . 
 . Font Dax Light does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Dax Light_int=\count164
+\g_fontspec_family_Dax Light_int=\count161
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1308,7 +1284,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"Dax Light/BI/ICU:"
 .................................................
-\g_fontspec_family_MetaPro_int=\count165
+\g_fontspec_family_MetaPro_int=\count162
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1344,7 +1320,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . 
 . Font Balance-Regular does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Balance-Regular_int=\count166
+\g_fontspec_family_Balance-Regular_int=\count163
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1370,7 +1346,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . 
 . Font Rockwell does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Rockwell_int=\count167
+\g_fontspec_family_Rockwell_int=\count164
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1390,7 +1366,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"Rockwell/BI/ICU:"
 .................................................
-\g_fontspec_family_Caecilia LT Std_int=\count168
+\g_fontspec_family_Caecilia LT Std_int=\count165
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1423,7 +1399,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic small caps' with NFSS spec.:
 . <->"Caecilia LT Std/BI/ICU:script=latn;language=DFLT;+smcp;"
 .................................................
-\g_fontspec_family_Bickham Script Pro_int=\count169
+\g_fontspec_family_Bickham Script Pro_int=\count166
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1451,7 +1427,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . 
 . Font LTZapfino One does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_LTZapfino One_int=\count170
+\g_fontspec_family_LTZapfino One_int=\count167
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1478,7 +1454,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'normal' with NFSS spec.:
 . <->s*[1.3]"LTZapfino One/ICU:"
 .................................................
-\g_fontspec_family_TeX Gyre Pagella_int=\count171
+\g_fontspec_family_TeX Gyre Pagella_int=\count168
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1511,7 +1487,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic small caps' with NFSS spec.:
 . <->"TeX Gyre Pagella/BI/ICU:script=latn;language=DFLT;+smcp;"
 .................................................
-\g_fontspec_family_TeX Gyre Termes_int=\count172
+\g_fontspec_family_TeX Gyre Termes_int=\count169
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1544,7 +1520,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic small caps' with NFSS spec.:
 . <->"TeX Gyre Termes/BI/ICU:script=latn;language=DFLT;+smcp;"
 .................................................
-\g_fontspec_family_TeX Gyre Cursor_int=\count173
+\g_fontspec_family_TeX Gyre Cursor_int=\count170
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1577,7 +1553,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic small caps' with NFSS spec.:
 . <->s*[0.9]"TeX Gyre Cursor/BI/ICU:script=latn;language=DFLT;+smcp;"
 .................................................
-\g_fontspec_family_TeX Gyre Heros_int=\count174
+\g_fontspec_family_TeX Gyre Heros_int=\count171
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1610,7 +1586,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic small caps' with NFSS spec.:
 . <->"TeX Gyre Heros/BI/ICU:script=latn;language=DFLT;+smcp;"
 .................................................
-\g_fontspec_family_TeX Gyre Chorus_int=\count175
+\g_fontspec_family_TeX Gyre Chorus_int=\count172
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1637,7 +1613,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'normal' with NFSS spec.:
 . <->"TeX Gyre Chorus/ICU:script=latn;language=DFLT;"
 .................................................
-\g_fontspec_family_TeX Gyre Schola_int=\count176
+\g_fontspec_family_TeX Gyre Schola_int=\count173
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1670,7 +1646,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic small caps' with NFSS spec.:
 . <->"TeX Gyre Schola/BI/ICU:script=latn;language=DFLT;+smcp;"
 .................................................
-\g_fontspec_family_TeX Gyre Bonum_int=\count177
+\g_fontspec_family_TeX Gyre Bonum_int=\count174
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1703,7 +1679,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic small caps' with NFSS spec.:
 . <->"TeX Gyre Bonum/BI/ICU:script=latn;language=DFLT;+smcp;"
 .................................................
-\g_fontspec_family_TeX Gyre Adventor_int=\count178
+\g_fontspec_family_TeX Gyre Adventor_int=\count175
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1741,7 +1717,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . 
 . Font Crimson Text does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Crimson Text_int=\count179
+\g_fontspec_family_Crimson Text_int=\count176
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1762,7 +1738,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 . * 'bold italic' with NFSS spec.:
 . <->"Crimson Text/BI/ICU:"
 .................................................
-\g_fontspec_family_EB Garamond_int=\count180
+\g_fontspec_family_EB Garamond_int=\count177
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1797,30 +1773,30 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 (./test_per_font.aux)
 \openout1 = `test_per_font.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 108.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 108.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 106.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 106.
  (c:/texlive/2013/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1828,63 +1804,63 @@ LaTeX Font Info:    ... okay on input line 108.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 108.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 108.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 108.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 108.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 108.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 108.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 108.
-LaTeX Font Info:    Redeclaring math accent \check on input line 108.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 108.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 108.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 108.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 108.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 106.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 106.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 106.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 106.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 106.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 106.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 106.
+LaTeX Font Info:    Redeclaring math accent \check on input line 106.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 106.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 106.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 106.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 106.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 108.
+(Font)              `operators' in the math version `normal' on input line 106.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/lmr/m/n on input line 108.
+(Font)                  OT1/cmr/m/n --> EU1/lmr/m/n on input line 106.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 108.
+(Font)              `operators' in the math version `bold' on input line 106.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/lmr/m/n on input line 108.
+(Font)                  OT1/cmr/bx/n --> EU1/lmr/m/n on input line 106.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 108.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 108.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/lmr/m/it on input line 108.
+(Font)                  OT1/cmr/m/it --> EU1/lmr/m/it on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/lmr/bx/n on input line 108.
+(Font)                  OT1/cmr/bx/n --> EU1/lmr/bx/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 108.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 108.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 106.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 108.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 108.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU1/lmr/bx/it on input line 108.
+(Font)                  OT1/cmr/bx/it --> EU1/lmr/bx/it on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 108.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 108.
-LaTeX Info: Redefining \microtypecontext on input line 108.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 106.
+LaTeX Info: Redefining \microtypecontext on input line 106.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1895,44 +1871,11 @@ Package microtype Info: No adjustment of kerning.
 File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
 ern Roman (RS)
 )
-*geometry* driver: auto-detecting
-*geometry* detected driver: xetex
-*geometry* verbose mode - [ preamble ] result:
-* driver: xetex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=591.5302pt
-* \oddsidemargin=17.3571pt
-* \evensidemargin=17.3571pt
-* \topmargin=-7.86334pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
 Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: EU1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
 [1
 
 ]
@@ -2758,90 +2701,6 @@ Package microtype Info: Character `‒' is missing
 Package microtype Info: Character `―' is missing
 (microtype)             in font `\EU1/TeXGyrePagella(0)/bx/n/24.88'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `ﬆ' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `ﬅ' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `‥' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `‼' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `⌐' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `⁰' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `⁴' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `⁵' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `⁶' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `⁷' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `⁸' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `⁹' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₀' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₁' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₂' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₃' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₄' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₅' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₆' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₇' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₈' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₉' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₊' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₋' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `⁺' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `⁻' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `‒' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `―' is missing
-(microtype)             in font `\EU1/TeXGyrePagella(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2998,7 +2857,7 @@ Package microtype Info: Loading generic settings for font family
 
 
 LaTeX Font Warning: Font shape `EU1/CliffordNineLF(0)/bx/n' undefined
-(Font)              using `EU1/CliffordNineLF(0)/m/n' instead on input line 118
+(Font)              using `EU1/CliffordNineLF(0)/m/n' instead on input line 116
 .
 
 .................................................
@@ -3510,7 +3369,7 @@ Package microtype Info: Character `\guilsinglright ' is missing
 
 
 LaTeX Font Warning: Font shape `EU1/BauLF-Regular(0)/bx/n' undefined
-(Font)              using `EU1/BauLF-Regular(0)/m/n' instead on input line 143.
+(Font)              using `EU1/BauLF-Regular(0)/m/n' instead on input line 141.
 
 
 Package microtype Info: Character `\textendash ' is missing
@@ -3542,36 +3401,6 @@ Package microtype Info: Character `\guilsinglleft ' is missing
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\guilsinglright ' is missing
 (microtype)             in font `\EU1/BauLF-Regular(0)/bx/n/24.88'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textendash ' is missing
-(microtype)             in font `\EU1/BauLF-Regular(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textemdash ' is missing
-(microtype)             in font `\EU1/BauLF-Regular(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquoteleft ' is missing
-(microtype)             in font `\EU1/BauLF-Regular(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquoteright ' is missing
-(microtype)             in font `\EU1/BauLF-Regular(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquotedblleft ' is missing
-(microtype)             in font `\EU1/BauLF-Regular(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquotedblright ' is missing
-(microtype)             in font `\EU1/BauLF-Regular(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotesinglbase ' is missing
-(microtype)             in font `\EU1/BauLF-Regular(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotedblbase ' is missing
-(microtype)             in font `\EU1/BauLF-Regular(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglleft ' is missing
-(microtype)             in font `\EU1/BauLF-Regular(0)/m/n/96'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglright ' is missing
-(microtype)             in font `\EU1/BauLF-Regular(0)/m/n/96'.
 (microtype)             Ignoring protrusion settings for this character.
 .................................................
 . fontspec info: "no-scripts"
@@ -4098,13 +3927,8 @@ Package microtype Info: Loading generic settings for font family
 . * 'bold italic' with NFSS spec.:
 . <->"Balance-Regular/BI/ICU:mapping=tex-text;"
 .................................................
-
-Overfull \hbox (1.05927pt too wide) in paragraph at lines 170--170
-[]\EU1/Balance-Regular(1)/m/n/12 Avrebbero vinto? Certo nessuno poteva saperlo.
- Non erano i quaranta mor-
- []
-
-[47] [48]
+ [47]
+[48]
 Package microtype Info: Loading generic settings for font family
 (microtype)             `Rockwell' (encoding: EU1).
 (microtype)             For optimal results, create family-specific settings.
@@ -4174,17 +3998,15 @@ Package microtype Info: Loading generic settings for font family
 .................................................
  [50]
 LaTeX Font Info:    Font shape `EU1/TeXGyreCursor(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 175.
+(Font)              scaled to size 10.79993pt on input line 173.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `TeXGyreCursor' (encoding: EU1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `EU1/TeXGyreCursor(0)/bx/n' will be
-(Font)              scaled to size 10.79993pt on input line 175.
+(Font)              scaled to size 10.79993pt on input line 173.
 LaTeX Font Info:    Font shape `EU1/TeXGyreCursor(0)/bx/n' will be
-(Font)              scaled to size 22.39185pt on input line 175.
-LaTeX Font Info:    Font shape `EU1/TeXGyreCursor(0)/m/n' will be
-(Font)              scaled to size 86.39941pt on input line 175.
+(Font)              scaled to size 22.39185pt on input line 173.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4225,20 +4047,18 @@ LaTeX Font Info:    Font shape `EU1/TeXGyreCursor(0)/m/n' will be
 . Cursor/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
 .................................................
 LaTeX Font Info:    Font shape `EU1/TeXGyreCursor(1)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 175.
+(Font)              scaled to size 10.79993pt on input line 173.
  [51] [52]
 LaTeX Font Info:    Font shape `EU1/BickhamScriptPro(0)/m/n' will be
-(Font)              scaled to size 16.79993pt on input line 178.
+(Font)              scaled to size 16.79993pt on input line 176.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `BickhamScriptPro' (encoding: EU1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `EU1/BickhamScriptPro(0)/bx/n' will be
-(Font)              scaled to size 16.79993pt on input line 178.
+(Font)              scaled to size 16.79993pt on input line 176.
 LaTeX Font Info:    Font shape `EU1/BickhamScriptPro(0)/bx/n' will be
-(Font)              scaled to size 34.83185pt on input line 178.
-LaTeX Font Info:    Font shape `EU1/BickhamScriptPro(0)/m/n' will be
-(Font)              scaled to size 134.39941pt on input line 178.
+(Font)              scaled to size 34.83185pt on input line 176.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -4265,10 +4085,10 @@ LaTeX Font Info:    Font shape `EU1/BickhamScriptPro(0)/m/n' will be
 . Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
 LaTeX Font Info:    Font shape `EU1/BickhamScriptPro(1)/m/n' will be
-(Font)              scaled to size 16.79993pt on input line 178.
+(Font)              scaled to size 16.79993pt on input line 176.
  [53]
 LaTeX Font Info:    Font shape `EU1/LTZapfinoOne(0)/m/n' will be
-(Font)              scaled to size 15.60004pt on input line 179.
+(Font)              scaled to size 15.60004pt on input line 177.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LTZapfinoOne' (encoding: EU1).
 (microtype)             For optimal results, create family-specific settings.
@@ -4276,12 +4096,10 @@ Package microtype Info: Loading generic settings for font family
 
 
 LaTeX Font Warning: Font shape `EU1/LTZapfinoOne(0)/bx/n' undefined
-(Font)              using `EU1/LTZapfinoOne(0)/m/n' instead on input line 179.
+(Font)              using `EU1/LTZapfinoOne(0)/m/n' instead on input line 177.
 
 LaTeX Font Info:    Font shape `EU1/LTZapfinoOne(0)/bx/n' will be
-(Font)              scaled to size 32.34407pt on input line 179.
-LaTeX Font Info:    Font shape `EU1/LTZapfinoOne(0)/m/n' will be
-(Font)              scaled to size 124.8003pt on input line 179.
+(Font)              scaled to size 32.34407pt on input line 177.
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -4314,7 +4132,7 @@ LaTeX Font Info:    Font shape `EU1/LTZapfinoOne(0)/m/n' will be
 . <->s*[1.3]"LTZapfino One/ICU:mapping=tex-text;"
 .................................................
 LaTeX Font Info:    Font shape `EU1/LTZapfinoOne(1)/m/n' will be
-(Font)              scaled to size 15.60004pt on input line 179.
+(Font)              scaled to size 15.60004pt on input line 177.
 [54]
 Package microtype Info: Loading generic settings for font family
 (microtype)             `TeXGyreChorus' (encoding: EU1).
@@ -4323,7 +4141,7 @@ Package microtype Info: Loading generic settings for font family
 
 
 LaTeX Font Warning: Font shape `EU1/TeXGyreChorus(0)/bx/n' undefined
-(Font)              using `EU1/TeXGyreChorus(0)/m/n' instead on input line 180.
+(Font)              using `EU1/TeXGyreChorus(0)/m/n' instead on input line 178.
 
 
 .................................................
@@ -4355,11 +4173,7 @@ LaTeX Font Warning: Font shape `EU1/TeXGyreChorus(0)/bx/n' undefined
 [55]
 
 LaTeX Font Warning: Font shape `LY/yfrak/bx/n' undefined
-(Font)              using `LY/yfrak/m/n' instead on input line 181.
-
-
-LaTeX Font Warning: Font shape `LY/yfrak/m/n' in size <96> not available
-(Font)              size <24.88> substituted on input line 181.
+(Font)              using `LY/yfrak/m/n' instead on input line 179.
 
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
@@ -4382,20 +4196,16 @@ Missing character: There is no à in font yfrak!
 Missing character: There is no ù in font yfrak!
 [56] (./test_per_font.aux)
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 71.12pt have occurred.
-
-
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  )
 (\end occurred when \ifx on line 31 was incomplete) 
 Here is how much of TeX's memory you used:
- 20715 strings out of 493938
- 474702 string characters out of 6151978
- 435674 words of memory out of 5000000
- 22880 multiletter control sequences out of 15000+600000
- 9733 words of font info for 605 fonts, out of 8000000 for 9000
+ 20093 strings out of 493938
+ 463240 string characters out of 6151978
+ 422198 words of memory out of 5000000
+ 22318 multiletter control sequences out of 15000+600000
+ 9332 words of font info for 562 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  46i,5n,45p,829b,196s stack positions out of 5000i,500n,10000p,200000b,80000s
 
