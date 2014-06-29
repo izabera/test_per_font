@@ -9,5 +9,6 @@ todo
 --
 
 - sistemare problemi dei testi come le legature ecc.
-- mostrare altri esempi di testo
+- mostrare altri esempi di testo?
+- comparare font?
 - stilizzare decentemente la pagina

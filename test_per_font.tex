@@ -17,17 +17,17 @@
 \definecolor{purplous}{RGB}{152, 124, 173}
 \definecolor{greenthing}{RGB}{100, 168, 117}
 
-\newcommand{\mydummy}{``Quaranta morti!''---esclamò Xao Jin. ``Un massacro epocale, è stata una Waterloo.''
+\newcommand{\mydummy}{``Quaranta morti!''---esclam\`o Xao Jin. ``Un massacro epocale, \`e stata una Waterloo.''
 
-È così che venne annunciata la sconfitta al boss della yakuza.
+\`E così che venne annunciata la sconfitta al boss della yakuza.
 
-Yamaguchi non rispose. Lentamente si alzò in piedi e andò verso la finestra del suo ufficio. Zitto. Immobile.
+Yamaguchi non rispose. Lentamente si alz\`o in piedi e and\`o verso la finestra del suo ufficio. Zitto. Immobile.
 
-Suo figlio Kaneda era morto in uno scontro come quello, ma lui era rimasto inflessibile come sempre. Dall'inizio della guerra erano stati uccisi così tanti uomini...
+Suo figlio Kaneda era morto in uno scontro come quello, ma lui era rimasto inflessibile come sempre. Dall'inizio della guerra erano stati uccisi cos\`i tanti uomini...
 
-Avrebbero vinto? Certo nessuno poteva saperlo. Non erano i quaranta morti il problema, ma le dozzine di perché che sollevavano, domande a cui non sapeva rispondere. Troppe battaglie da affrontare, troppo affilati i coltelli degli avversari, troppo letali i loro attacchi... Vent'anni prima sarebbe andato lui stesso là a combattere, ma ora non ne aveva le forze.
+Avrebbero vinto? Certo nessuno poteva saperlo. Non erano i quaranta morti il problema, ma le dozzine di perch\'e che sollevavano, domande a cui non sapeva rispondere. Troppe battaglie da affrontare, troppo affilati i coltelli degli avversari, troppo letali i loro attacchi... Vent'anni prima sarebbe andato lui stesso l\`a a combattere, ma ora non ne aveva le forze.
 
-Pensò alla sua Hyoko, vittima innocente della mano violenta dei Matowaji. Rimase lì per un po', mentre i ricordi affluivano. Già da anni non pensava più ad Oxford, all'incendio di Birmingham, alle sparatorie di Edimburgo del 1973--74... Forse ormai era troppo vecchio.}
+Pens\`o alla sua Hyoko, vittima innocente della mano violenta dei Matowaji. Rimase l\`i per un po', mentre i ricordi affluivano. Già da anni non pensava pi\`u ad Oxford, all'incendio di Birmingham, alle sparatorie di Edimburgo del 1973--74... Forse ormai era troppo vecchio.}
 
 \newcounter{colorcounter}
 
@@ -51,9 +51,11 @@ Pensò alla sua Hyoko, vittima innocente della mano violenta dei Matowaji. Rimas
 \vspace*{\fill}\newpage}
 %esempio:\testfont[figo]\bembo{Bembo Std}
 
-\newcommand{\parte}[1]{\vspace*{\fill}\hspace*{\fill}%
-\textsf{\textbf{\Huge#1}}%
-\hspace*{\fill}\vspace*{\fill}\newpage}
+\newcommand{\parte}[2]{\vspace*{\fill}%
+\hspace*{\fill}\textsf{\textbf{\Huge#1}}\hspace*{\fill}%
+\vskip 2cm%
+\textsf{\noindent\large#2}%
+\vspace*{\fill}\newpage}
 
 \newfontfamily\baskervald{Baskervald ADF Std}
 \newfontfamily\bembo{Bembo Std}
@@ -104,14 +106,14 @@ Pensò alla sua Hyoko, vittima innocente della mano violenta dei Matowaji. Rimas
 \newfontfamily\ebgaramond{EB Garamond}
 
 \begin{document}
-\parte{Veneziani o umanisti}
+\parte{Veneziani o umanisti}{Molto calligrafici, con un'angolatura evidente e moderato contrasto nel tratto. Spesso mostrano grazie asimmetriche.}
 \testfont{\jenson}{Adobe Jenson}{RingrAziare}
 \testfont{\minion}{Minion}{Dimentichi}
 \testfont{\crimson}{Crimson}{Imbottiva}
 \testfont[Versione open source di Palatino]{\pagella}{TeX Gyre Pagella}{LongoBardi}
 %\testfont{\palatino}{Palatino LT Std}{Ciao}
 
-\parte{Romani antichi}
+\parte{Romani antichi}{Le grazie sono solitamente concave o piatte con terminali rotondi. C'è molta differenza tra aste orizzontali e verticali.}
 \testfont{\bembo}{Bembo}{Xenofobia}
 \testfont[Da risolvere: non mostra le legature]{\clifford}{FF Clifford}{VestiTo}
 \testfont{\scala}{FF Scala}{YogurteRia}
@@ -119,7 +121,7 @@ Pensò alla sua Hyoko, vittima innocente della mano violenta dei Matowaji. Rimas
 %\testfont[Carino!]{\garamond}{Adobe Garamond}{Ciao}
 \testfont{\libertine}{Linux Libertine}{QuaGlie}
 
-\parte{Transizionali}
+\parte{Transizionali}{Hanno un contrasto pronunciato tra aste verticali e orizzontali. Le grazie sono piatte e gli assi delle lettere sono verticali.}
 \testfont[Raccomandato!]{\caslon}{Adobe Caslon}{ColtivaZione}
 \testfont{\baskervald}{Baskervald ADF}{Atrofizza}
 \testfont[Versione open source di Times New Roman ma con legature]{\termes}{TeX Gyre Termes}{Vegliare}
@@ -128,7 +130,7 @@ Pensò alla sua Hyoko, vittima innocente della mano violenta dei Matowaji. Rimas
 \testfont{\celeste}{CelesteST}{ScodeLla}
 \testfont[Versione open source di ITC Bookman]{\bonum}{TeX Gyre Bonum}{Jugoslavi}
 
-\parte{Romani moderni}
+\parte{Romani moderni}{Il passaggio tra aste verticali e orizzontali è marcatissimo. Le grazie sono fini e ad angolo retto.}
 \testfont{\bodoni}{Bauer Bodoni}{RegolatiVo}
 \testfont[Versione open source di New Century Schoolbook]{\schola}{TeX Gyre Schola}{ZigrinAto}
 %\testfont{\century}{New Century Schoolbook}{Ciao}
@@ -136,46 +138,50 @@ Pensò alla sua Hyoko, vittima innocente della mano violenta dei Matowaji. Rimas
 \testfont{\melior}{Melior}{Castori}
 \testfont{\raleigh}{Raleigh LT}{VessilLo}
 
-\parte{Grotteschi}
+\parte{Grotteschi}{Basso contrasto nel tratto e proporzioni abbastanza regolari. Le forme arrotondate sono spesso ovali.}
 \testfont{\grotesque}{Grotesque}{NapolEone}
 \testfont[Da risolvere: non mostra virgolette]{\bau}{FF Bau}{XilofOno}
 
-\parte{Neo-grotteschi}
+\parte{Neo-grotteschi}{Rispetto ai grotteschi hanno forme più omogenee e arrotondate. I terminali sono orizzontali e le aperture sono strette.}
 \testfont{\univers}{Univers}{TemPorali}
 \testfont[Versione open source di Helvetica]{\heros}{TeX Gyre Heros}{RiGato}
 %\testfont{\helvetica}{Neue Helvetica}{Ciao}
-\testfont{\arial}{Arial}{GiRato}
 
-\parte{Gotici senza grazie}
+\parte{Gotici senza grazie}{Versione americana dei grotteschi con forme semplici e più statiche. Solitamente hanno un basso contrasto.}
+\testfont{\arial}{Arial}{GiRato}
 \testfont{\sf}{Latin Modern Sans}{Pubertà}
 
-\parte{Geometrici}
+\parte{Geometrici}{Sono costruiti da forme geometriche quasi sempre circolari o quadrate e riducono al minimo il contrasto del tratto.}
 \testfont[Versione open source di ITC Avant Garde Gothic]{\adventor}{TeX Gyre Adventor}{Regionali}
 %\testfont{\avantgarde}{ITC Avant Garde Gothic}{Ciao}
 \testfont{\din}{FF Din}{Galeoni}
 \testfont{\futura}{Futura LT}{HambuRger}
 
-\parte{Umanisti senza grazie}
+\parte{Umanisti senza grazie}{Hanno una struttura piuttosto calligrafica, con maggiore contrasto nel tratto rispetto ad altri tipi di caratteri senza grazie. Le aperture sono molto larghe.}
 \testfont{\gill}{Gill Sans}{Wimbledon}
 \testfont[Molto chiaro e leggibile]{\frutiger}{Frutiger}{Mitiga}
 \testfont{\myriad}{Myriad}{ForestiEra}
 \testfont{\optima}{Optima}{Sequestrai}
 \testfont{\verdana}{Verdana}{Ossidriche}
 
-\parte{Neo-umanisti senza grazie}
+\parte{Neo-umanisti senza grazie}{Simili a quelli umanisti, ma presentano aperture più larghe ed un contrasto del tratto minore.}
 \testfont{\dax}{FF Dax}{RaCcoglie}
 \testfont{\meta}{FF Meta}{Velocista}
 \testfont{\balance}{FF Balance}{Ubriacone}
 
-\parte{Egiziani}
+\parte{Egiziani}{Solitamente aumentano lo spessore delle grazie e delle aste orizzontali. Ricordano lo stile dei caratteri da macchina da scrivere.}
 \testfont{\rockwell}{Rockwell}{Far West}
 \testfont{\caecilia}{PMN Caecilia}{Estrazione}
 \testfont[Versione open source di Courier]{\cursor}{TeX Gyre Cursor}{Computer}
 
-\parte{Scritture}
+\parte{Scritture}{Tentano di riprodurre un testo scritto a mano. Il loro impiego è limitato per la scarsa leggibilità dei caratteri nei testi lunghi.}
 \testfont{\bickham}{Bickham Script}{AltiSsima}
 \testfont[Da risolvere: non prende le alternative]{\zapfino}{Zapfino LinoType}{Killer}
 \testfont[Versione open source di Zaph Chancery]{\chorus}{TeX Gyre Chorus}{Giostre}
-\testfont{\frakfamily}{Fraktur}{Ricettario}
+
+\parte{Medievali}{Richiamano gli antichi caratteri dei monaci amanuensi e delle bibbie di Gutemberg.}
+\testfont{\frakfamily}{Fraktur}{Studiosa}
+\testfont{\gothfamily}{Gotisch}{RiceTtario}
+\testfont{\swabfamily}{Schwabacher}{BerlinEsi}
 
 \end{document}
